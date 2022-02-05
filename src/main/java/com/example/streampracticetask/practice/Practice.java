@@ -38,49 +38,49 @@ public class Practice {
 
     // Display all the employees
     public static List<Employee> getAllEmployees() {
-        //TODO Implement the method
-        return new ArrayList<>();
+        return employeeService.readAll();
+       // return new ArrayList<>();
     }
 
     // Display all the countries
     public static List<Country> getAllCountries() {
-        //TODO Implement the method
-        return new ArrayList<>();
+     return    countryService.readAll();
+       // return new ArrayList<>();
     }
 
     // Display all the departments
     public static List<Department> getAllDepartments() {
-        //TODO Implement the method
-        return new ArrayList<>();
+     return   departmentService.readAll();
+       // return new ArrayList<>();
     }
 
     // Display all the jobs
     public static List<Job> getAllJobs() {
-        //TODO Implement the method
-        return new ArrayList<>();
+     return   jobService.readAll();
+       // return new ArrayList<>();
     }
 
     // Display all the locations
     public static List<Location> getAllLocations() {
-        //TODO Implement the method
-        return new ArrayList<>();
+     return   locationService.readAll();
+       // return new ArrayList<>();
     }
 
     // Display all the regions
     public static List<Region> getAllRegions() {
-        //TODO Implement the method
-        return new ArrayList<>();
+      return regionService.readAll();
+        //return new ArrayList<>();
     }
 
     // Display all the job histories
     public static List<JobHistory> getAllJobHistories() {
-        //TODO Implement the method
-        return new ArrayList<>();
+      return jobHistoryService.readAll();
+      //  return new ArrayList<>();
     }
 
     // Display all the employees' first names
     public static List<String> getAllEmployeesFirstName() {
-        //TODO Implement the method
+       // employeeService.readAll().stream().filter()
         return new ArrayList<>();
     }
 
